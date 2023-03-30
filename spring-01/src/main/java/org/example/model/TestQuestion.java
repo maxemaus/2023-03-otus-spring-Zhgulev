@@ -2,7 +2,7 @@ package org.example.model;
 
 import java.util.List;
 
-public class Test {
+public class TestQuestion {
 
     private String question;
 

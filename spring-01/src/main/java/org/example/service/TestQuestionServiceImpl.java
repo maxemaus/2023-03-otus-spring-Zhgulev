@@ -1,21 +1,21 @@
 package org.example.service;
 
-import org.example.dao.TestDaoImpl;
+import org.example.dao.TestQuestionDaoImpl;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
-public class TestServiceImpl implements TestService{
+public class TestQuestionServiceImpl implements TestQuestionService {
 
-    private final TestDaoImpl testDao;
+    private final TestQuestionDaoImpl testDao;
 
-    public TestServiceImpl(TestDaoImpl testDaoImpl) {
+    public TestQuestionServiceImpl(TestQuestionDaoImpl testDaoImpl) {
         this.testDao = testDaoImpl;
     }
 
-    public TestDaoImpl getTestDao() {
+    public TestQuestionDaoImpl getTestDao() {
         return testDao;
     }
 

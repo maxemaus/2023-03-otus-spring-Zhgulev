@@ -1,10 +1,10 @@
 package org.example.dao;
 
-public class TestDaoImpl implements TestDao{
+public class TestQuestionDaoImpl implements TestQuestionDao {
 
     private final String repository;
 
-    public TestDaoImpl(String repository) {
+    public TestQuestionDaoImpl(String repository) {
         this.repository = repository;
     }
 

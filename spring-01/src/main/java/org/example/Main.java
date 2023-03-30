@@ -1,14 +1,14 @@
 package org.example;
 
-import org.example.dao.TestDaoImpl;
-import org.example.service.TestService;
+import org.example.dao.TestQuestionDaoImpl;
+import org.example.service.TestQuestionService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Main {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("/spring-context.xml");
-        TestService service = context.getBean(TestService.class);
-        TestDaoImpl testDao = context.getBean(TestDaoImpl.class);
+        TestQuestionService service = context.getBean(TestQuestionService.class);
+        TestQuestionDaoImpl testDao = context.getBean(TestQuestionDaoImpl.class);
         service.displayListTest(testDao.getRepository());
     }
 }

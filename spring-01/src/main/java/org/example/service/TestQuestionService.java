@@ -1,6 +1,6 @@
 package org.example.service;
 
-public interface TestService {
+public interface TestQuestionService {
 
     void displayListTest(String path);
 }
