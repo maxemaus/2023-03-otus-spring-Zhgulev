@@ -8,6 +8,10 @@ public class TestQuestion {
 
     private List<String> answer;
 
+    public TestQuestion(String question) {
+        this.question = question;
+    }
+
     public String getQuestion() {
         return question;
     }
