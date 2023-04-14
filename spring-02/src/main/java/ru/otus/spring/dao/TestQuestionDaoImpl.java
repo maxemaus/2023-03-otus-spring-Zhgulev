@@ -1,5 +1,6 @@
 package ru.otus.spring.dao;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Repository;
 
 import java.io.BufferedReader;
@@ -14,7 +15,7 @@ public class TestQuestionDaoImpl implements TestQuestionDao {
 
     private final String repository;
 
-    public TestQuestionDaoImpl(String repository) {
+    public TestQuestionDaoImpl(@Value("${tasks.path}") String repository) {
         this.repository = repository;
     }
 
