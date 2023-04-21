@@ -26,8 +26,7 @@ public class TestQuestionDaoImpl implements TestQuestionDao {
     @Override
     public List<String> getListByQuestions() {
         List<String> list = new ArrayList<>();
-        String questionsPath = messageSource.getMessage("questionsPath", null, props.getLocale());
-        InputStream in = getClass().getResourceAsStream(questionsPath);
+        InputStream in = getClass().getResourceAsStream(props.getQuestions());
         BufferedReader reader = new BufferedReader(new InputStreamReader(in));
         reader.lines().forEach(list::add);
         try {

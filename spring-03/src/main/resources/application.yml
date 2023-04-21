@@ -5,4 +5,5 @@ spring:
 
 application:
   locale: en
+  questions: /questions_${application.locale}.csv
 

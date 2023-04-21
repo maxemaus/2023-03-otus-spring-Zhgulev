@@ -11,6 +11,16 @@ public class AppProps {
 
     private Locale locale;
 
+    private String questions;
+
+    public String getQuestions() {
+        return questions;
+    }
+
+    public void setQuestions(String questions) {
+        this.questions = questions;
+    }
+
     public String getMessage() {
         return message;
     }
