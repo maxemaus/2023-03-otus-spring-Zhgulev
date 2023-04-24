@@ -1,7 +1,7 @@
 package ru.otus.spring.dao;
 
 import org.springframework.context.MessageSource;
-import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Component;
 import ru.otus.spring.configs.AppProps;
 
 import java.io.BufferedReader;
@@ -11,7 +11,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-@Repository
+@Component
 public class TestQuestionDaoImpl implements TestQuestionDao {
 
     private final MessageSource messageSource;
