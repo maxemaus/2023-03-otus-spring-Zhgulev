@@ -1,0 +1,31 @@
+1) Каков правильный синтаксис для создания нового экземпляра класса StringBuilder в Java?,
+    a) StringBuilder sb = new StringBuilder,
+    b) StringBuilder sb = StringBuilder(),
+    c) StringBuilder sb = new StringBuilder(),
+    d) StringBuilder sb = new StringBuilder{},
+c
+2) Каков результат следующего кода? System.out.println("5 + 2 = " + 5 + 2),
+    a) 5 + 2 = 7,
+    b) 7 = 5 + 2,
+    c) 52,
+    d) Исключение IllegalFormatConversionException,
+c
+3) Какой из следующих модификаторов доступа является наиболее ограничительным в Java?,
+   a) public,
+   b) protected,
+   c) default,
+   d) private,
+d
+4) Что из перечисленного не является особенностью языка программирования Java?,
+    a) Независимость от платформы,
+    b) Автоматическое управление памятью,
+    в) Множественное наследование,
+    d) Объектно-ориентированное программирование,
+c
+5) Каков результат следующего кода? int[] a = {1, 2, 3, 4, 5}; int[] b = new int[5]; System.arraycopy(a, 0, b, 0, 5); System.out.print(Arrays.toString(b)),
+    a) [0, 0, 0, 0, 0],
+    б) [1, 2, 3, 4, 5],
+    c) Исключение NullPointerException,
+    d) Исключение IllegalStateException,
+b
+Тест завершен
